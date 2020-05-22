@@ -1,0 +1,11 @@
+.gridView {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media(max-width: 700px){
+  .gridView{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
